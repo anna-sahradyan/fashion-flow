@@ -22,7 +22,7 @@ export const SliderSecond = () => {
             >
                 {sliderSecond.map((item) => {
                     return (
-                        <SwiperSlide key={item.id} className={'swiper_content'}
+                        <SwiperSlide key={item.id} className={style.swiperContent}
 
                         >
                             <div className={style.imgBox}><img

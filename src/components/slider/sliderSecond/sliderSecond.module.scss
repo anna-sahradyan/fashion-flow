@@ -6,7 +6,7 @@
   height: 100dvh;
   min-height: 1080px;
   color: white;
-  background-color: black;
+  //background-color: black;
   @media (max-width: 320px) {
     min-height: 652px;
     margin: -44px auto;
@@ -33,6 +33,9 @@
   width: 100%;
   height: 100%;
   display: block;
+  object-fit: cover;
+
+
   @media (max-width: 320px) {
     min-height: 652px;
 
