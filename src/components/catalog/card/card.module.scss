@@ -1,0 +1,71 @@
+
+.cardList {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 16px;
+  @media (max-width: 1344px) {
+    width: 100%;
+    gap: 20px;
+  }
+
+  @media (max-width: 402px) {
+    min-height: 395px;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .picture {
+    width: 100%;
+    height: auto;
+    @media (max-width: 402px) {
+      width: 265px;
+      min-height: 395px;
+      margin: 0 auto;
+    }
+
+    & img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .starCard {
+    filter: invert(0.5) brightness(0.8) contrast(1.2);
+    width: 40px;
+    height: 40px;
+
+    @media (max-width: 402px) {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  .cardInner {
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 402px) {
+      width: 265px;
+      height: auto;
+      margin: 0 auto 44px auto;
+    }
+  }
+
+  .boxDescribe {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    gap: 4px;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: 'Inter', sans-serif;
+    @media (max-width: 320px) {
+      font-size: 10px;
+      line-height: 12px;
+      width: 76px;
+      .cardDesc {
+        line-height: 15px;
+      }
+    }
+  }
+}
