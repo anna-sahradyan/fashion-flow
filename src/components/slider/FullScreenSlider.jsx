@@ -1,6 +1,5 @@
 import React from 'react';
 import {Swiper, SwiperSlide} from 'swiper/react';
-import './fullScreenSlider.module.scss';
 import 'swiper/css';
 import {sliderHeader} from "../data/slide.js";
 import {Link} from "react-router-dom";
