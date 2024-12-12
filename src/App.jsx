@@ -8,16 +8,17 @@ import {Fashion} from "./components/catalog/fashion/Fashion.jsx";
 
 export const App = () => {
     return (
-
-        <div className="wrapper">
+        <>
             <Header/>
-            <main className={'main'}>
-                <FullScreenSlider/>
-                <Catalog/>
-                <SliderSecond/>
-                <Fashion/>
-            </main>
+            <div className="wrapper">
+                <main className={'main'}>
+                    <FullScreenSlider/>
+                    <Catalog/>
+                    <SliderSecond/>
+                    <Fashion/>
+                </main>
+            </div>
             <Footer/>
-        </div>
+        </>
     );
 };
